@@ -1,5 +1,8 @@
+import 'package:projek_lab/provider/app_state_provider.dart';
 import 'package:flutter/material.dart';
-import 'package:projek_lab/screens/sigin_screen.dart';
+import 'package:provider/provider.dart';
+
+import 'config/routes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,16 +11,18 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        fontFamily: 'Urbanist',
+    return ChangeNotifierProvider(
+      create: (_) => AppStateProvider(),
+      child: MaterialApp.router(
+        title: 'AnimeVerse',
+        theme: ThemeData(
+          fontFamily: 'Urbanist',
+        ),
+        routerConfig: createRouter(),
+        debugShowCheckedModeBanner: false,
       ),
-      home: const SignInScreen(),
-      debugShowCheckedModeBanner: false,
     );
   }
 }
