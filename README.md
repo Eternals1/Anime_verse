@@ -1,16 +1,21 @@
-# projek_lab
+# projek_lab/Animeverse
+nama : Aska Skata
+NIM  : 231401041
+LAB  : 3 
 
 A new Flutter project.
 
-## Getting Started
+## PROJECT DESCRIPTION
 
-This project is a starting point for a Flutter application.
+Projek ini merupakan projek pembuatan aplikasi mobile dengan menggunakan flutter. aplikasi yang dibuat pada projek ini merupakan aplikasi pencarian list anime dengan informasi detail seperti judul, deskripsi dan rating. pada projek ini telah diterapkan beberapa fitur seperti 
+- login dengan google atau daftar sendiri
+- Search 
+-penggunaan firebase 
+- logout 
+- 
 
-A few resources to get you started if this is your first Flutter project:
+## Dokumentasi 
+login page
+<img width="555" height="988" alt="image" src="https://github.com/user-attachments/assets/3b2a7b31-7e2b-4eb2-9577-879e29a04bb4" />
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
