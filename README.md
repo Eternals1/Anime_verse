@@ -42,6 +42,8 @@ Selain fitur-fitur tersebut, struktur aplikasi sudah dibangun menggunakan prinsi
 
 ## Link Video Demo
 
+https://drive.google.com/file/d/1dJfExtUJe7PVmCIkv5YWxsOaiQjpJeqb/view?usp=sharing 
+
 
 
 
